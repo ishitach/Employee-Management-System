@@ -1,0 +1,66 @@
+body, html {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+#div1 {
+    display:none;
+}
+
+
+#div2 {
+    display: none;
+}
+
+
+#div3 {
+    display: none;
+}
+
+
+#div4 {
+    display: none;
+}
+
+.active{
+    padding: 8px;
+    display: inline;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: yellowgreen;
+}
+
+li {
+    float: left;
+    padding: 14px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: yellow;
+}
+
+#eldiv{
+background-color: palevioletred;
+width: 530px;
+height: 280px;
+}
+
+#list1{
+   background-color: blueviolet;   
+   /*float: left;*/
+    display: inline-block;
+}
